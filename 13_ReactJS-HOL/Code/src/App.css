@@ -1,0 +1,41 @@
+.App {
+  text-align: left;
+  font-family: Arial, sans-serif;
+  padding: 100px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.section {
+  width: 25%;
+  padding: 10px;
+  border-left: 6px solid green;
+}
+
+.section:first-child {
+  border-left: none;
+}
+
+h2 {
+  font-size: 2.0em;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  font-size: 16px;
+}
+
+.blog-author {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 4px 0;
+}
+
